@@ -1,7 +1,10 @@
 # Whatsappbot
+
 This is python program that send a same message either an image with a caption or just a text message to numerous no of people.
 
 ## How to run
+
+Make sure to chrome is version 91
 
 To run this program  follow the steps below:
 
@@ -13,7 +16,7 @@ open terminal or command line in the extracted folder
 
 run 
 
-```python
+```jsx
 source venv/bin/activate
 ```
 
@@ -29,4 +32,12 @@ if you only have a text message to be send edit the [main.py](http://main.py) fi
 	text(msg)
 ```
 
-Now running the [main.py](http://main.py) file will open an chrome tab with whatsapp web now login with you phone and press enter key in the terminal to proceed. The bot will start sending the predefined message to the phone numbers specified in the phoneno.csv
+Now running the [main.py](http://main.py) file will open an chrome tab with whatsapp web now login with you phone and press enter key in the terminal to proceed. The bot will start sending the predefined message to the phone numbers specified in the phoneno.csv  
+
+## For linux Users
+
+If you are a linux user make sure you change the line 6 in [main.py](http://main.py) with 
+
+```python
+driver = webdriver.Chrome(executable_path='chromedriver')
+```
