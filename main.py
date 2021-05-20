@@ -3,7 +3,7 @@ from selenium import webdriver
 import time
 from message import message
 
-driver = webdriver.Chrome(executable_path='chromedriver')
+driver = webdriver.Chrome(executable_path='chromedriver.exe')
 driver.get("https://web.whatsapp.com")
 input("Press any key to continue")
 
