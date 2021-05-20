@@ -1,3 +1,4 @@
+#Whatsappbot
 This is python program that send a same message either an image with a caption or just a text message to numerous no of people.
 
 ## How to run
@@ -12,7 +13,7 @@ open terminal or command line in the extracted folder
 
 run 
 
-```jsx
+```python
 source venv/bin/activate
 ```
 
